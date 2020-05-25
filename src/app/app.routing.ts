@@ -9,13 +9,30 @@ import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 
+//Our components:
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { EjesComponent } from './pages/ejes/ejes.component';
+import { Ejes2Component } from './pages/ejes2/ejes2.component';
+import { EjeInnovacionComponent } from './pages/eje-innovacion/eje-innovacion.component';
+import { EjeInvestigacionComponent } from './pages/eje-investigacion/eje-investigacion.component';
+import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.component';
+
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
     { path: 'user-profile',     component: ProfileComponent },
     { path: 'register',           component: SignupComponent },
     { path: 'landing',          component: LandingComponent },
     { path: 'login',          component: LoginComponent },
-    { path: '', redirectTo: 'home', pathMatch: 'full' }
+
+    { path: 'inicio',          component: InicioComponent },
+    { path: 'ejes',          component: EjesComponent },
+    { path: 'ejes2',          component: Ejes2Component },
+    { path: 'eje/innovacion',          component: EjeInnovacionComponent },
+    { path: 'eje/investigacion',          component: EjeInvestigacionComponent },
+    { path: 'eje/politica',          component: EjePoliticasComponent },
+
+    //{ path: '', redirectTo: 'home', pathMatch: 'full' }
+    { path: '', redirectTo: 'inicio', pathMatch: 'full' }
 ];
 
 @NgModule({

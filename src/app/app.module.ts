@@ -16,6 +16,12 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { EjesComponent } from './pages/ejes/ejes.component';
+import { Ejes2Component } from './pages/ejes2/ejes2.component';
+import { EjeInnovacionComponent } from './pages/eje-innovacion/eje-innovacion.component';
+import { EjeInvestigacionComponent } from './pages/eje-investigacion/eje-investigacion.component';
+import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    InicioComponent,
+    EjesComponent,
+    Ejes2Component,
+    EjeInnovacionComponent,
+    EjeInvestigacionComponent,
+    EjePoliticasComponent
   ],
   imports: [
     BrowserModule,
