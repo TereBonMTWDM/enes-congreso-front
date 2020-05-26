@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
+import { MaterialModule } from './modules/material/material.module';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
@@ -22,6 +23,7 @@ import { Ejes2Component } from './pages/ejes2/ejes2.component';
 import { EjeInnovacionComponent } from './pages/eje-innovacion/eje-innovacion.component';
 import { EjeInvestigacionComponent } from './pages/eje-investigacion/eje-investigacion.component';
 import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.component';
+import { SectionsModule } from './sections/sections.module';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.compo
     RouterModule,
     AppRoutingModule,
     HomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule,
+    SectionsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
