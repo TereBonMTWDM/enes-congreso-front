@@ -24,6 +24,9 @@ import { EjeInnovacionComponent } from './pages/eje-innovacion/eje-innovacion.co
 import { EjeInvestigacionComponent } from './pages/eje-investigacion/eje-investigacion.component';
 import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.component';
 import { SectionsModule } from './sections/sections.module';
+import { ProgramaComponent } from './pages/programa/programa.component';
+import { ComiteComponent } from './pages/comite/comite.component';
+import { PresentadoresComponent } from './pages/presentadores/presentadores.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,10 @@ import { SectionsModule } from './sections/sections.module';
     Ejes2Component,
     EjeInnovacionComponent,
     EjeInvestigacionComponent,
-    EjePoliticasComponent
+    EjePoliticasComponent,
+    ProgramaComponent,
+    ComiteComponent,
+    PresentadoresComponent
   ],
   imports: [
     BrowserModule,
