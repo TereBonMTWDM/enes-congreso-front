@@ -16,6 +16,9 @@ import { Ejes2Component } from './pages/ejes2/ejes2.component';
 import { EjeInnovacionComponent } from './pages/eje-innovacion/eje-innovacion.component';
 import { EjeInvestigacionComponent } from './pages/eje-investigacion/eje-investigacion.component';
 import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.component';
+import { ProgramaComponent } from './pages/programa/programa.component';
+import { ComiteComponent } from './pages/comite/comite.component';
+import { PresentadoresComponent } from './pages/presentadores/presentadores.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -30,6 +33,9 @@ const routes: Routes =[
     { path: 'eje/innovacion',          component: EjeInnovacionComponent },
     { path: 'eje/investigacion',          component: EjeInvestigacionComponent },
     { path: 'eje/politica',          component: EjePoliticasComponent },
+    { path: 'programa',          component: ProgramaComponent },
+    { path: 'comite',          component: ComiteComponent },
+    { path: 'presentadores',          component: PresentadoresComponent },
 
     //{ path: '', redirectTo: 'home', pathMatch: 'full' }
     { path: '', redirectTo: 'inicio', pathMatch: 'full' }
