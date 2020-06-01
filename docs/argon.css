@@ -11021,6 +11021,8 @@ a.text-info:hover {
     color: #0da5c0!important
 }
 
+
+
 .text-warning {
     color: #fb6340!important
 }
@@ -11698,6 +11700,7 @@ button.section-darker:hover {
     background: linear-gradient(87deg, #fb6340 0, #fbb140 100%)!important
 }
 
+
 .bg-gradient-danger {
     background: linear-gradient(87deg, #f5365c 0, #f56036 100%)!important
 }
@@ -11725,6 +11728,8 @@ button.section-darker:hover {
 .bg-gradient-darker {
     background: linear-gradient(87deg, #000 0, #000 100%)!important
 }
+
+
 
 .fill-primary {
     fill: #5e72e4
