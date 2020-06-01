@@ -176,6 +176,55 @@
         }
     }
 
+    .shape-unam-azul {
+        background: linear-gradient(150deg, shapes-unam-azul-color("step-1-gradient-bg") 15%, shapes-unam-azul-color("step-2-gradient-bg") 70%, shapes-unam-azul-color("step-3-gradient-bg") 94%);
+
+         :nth-child(1) {
+            background: shapes-unam-azul-color("span-1-bg");
+        }
+
+         :nth-child(2) {
+            background: shapes-unam-azul-color("span-2-bg");
+        }
+
+         :nth-child(3) {
+            background: shapes-unam-azul-color("span-3-bg");
+        }
+
+         :nth-child(4) {
+            background: shapes-unam-azul-color("span-4-bg");
+        }
+
+         :nth-child(5) {
+            background: shapes-unam-azul-color("span-5-bg");
+        }
+    }
+
+
+    .shape-unam-oro {
+        background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
+
+         :nth-child(1) {
+            background: shapes-dark-color("span-1-bg");
+        }
+
+         :nth-child(2) {
+            background: shapes-dark-color("span-2-bg");
+        }
+
+         :nth-child(3) {
+            background: shapes-dark-color("span-3-bg");
+        }
+
+         :nth-child(4) {
+            background: shapes-dark-color("span-4-bg");
+        }
+
+         :nth-child(5) {
+            background: shapes-dark-color("span-5-bg");
+        }
+    }
+
     .shape-style-1 {
         span {
             height: 120px;
@@ -301,6 +350,14 @@
 
         &.shape-dark {
             background: linear-gradient(150deg, shapes-dark-color("step-1-gradient-bg") 15%, shapes-dark-color("step-2-gradient-bg") 70%, shapes-dark-color("step-3-gradient-bg") 94%);
+        }
+
+        &.shape-unam-azul {
+            background: linear-gradient(150deg, shapes-unam-azul-color("step-1-gradient-bg") 15%, shapes-unam-azul-color("step-2-gradient-bg") 70%, shapes-unam-azul-color("step-3-gradient-bg") 94%);
+        }
+
+        &.shape-unam-oro {
+            background: linear-gradient(150deg, shapes-unam-oro-color("step-1-gradient-bg") 15%, shapes-unam-oro-color("step-2-gradient-bg") 70%, shapes-unam-oro-color("step-3-gradient-bg") 94%);
         }
     }
 
