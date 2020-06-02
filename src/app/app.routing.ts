@@ -19,6 +19,7 @@ import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.compo
 import { ProgramaComponent } from './pages/programa/programa.component';
 import { ComiteComponent } from './pages/comite/comite.component';
 import { PresentadoresComponent } from './pages/presentadores/presentadores.component';
+import { GuanajuatoComponent } from './pages/guanajuato/guanajuato.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -36,6 +37,7 @@ const routes: Routes =[
     { path: 'programa',          component: ProgramaComponent },
     { path: 'comite',          component: ComiteComponent },
     { path: 'presentadores',          component: PresentadoresComponent },
+    { path: 'guanajuato',          component: GuanajuatoComponent },
 
     //{ path: '', redirectTo: 'home', pathMatch: 'full' }
     { path: '', redirectTo: 'inicio', pathMatch: 'full' }

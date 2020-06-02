@@ -408,12 +408,14 @@ h6 {
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: .5rem;
-    color: #32325d
+    color: #32325d;
+    
 }
 
 .h1,
 h1 {
-    font-size: 1.625rem
+    font-size: 1.625rem;
+    color: #ed9b0e !important
 }
 
 .h2,
@@ -10982,6 +10984,10 @@ button.bg-darker:hover {
 }
 
 .text-white {
+    color: #fff!important
+}
+
+.text-oro {
     color: #fff!important
 }
 
