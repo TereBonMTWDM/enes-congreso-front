@@ -163,8 +163,8 @@
           <div class="dropdown-menu-xl dropdown-menu" >
             <div class="dropdown-menu-inner">
               <a routerLinkActive="active" [routerLink]="['/comite']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-calendar-grid-58"></i>
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <span class="material-icons">people_outline</span>
                 </div>
                 <div class="media-body ml-3">
                   <h6 class="heading text-primary mb-md-1">Comités Técnico y Científico</h6>
@@ -172,8 +172,8 @@
                 </div>
               </a>
               <a routerLinkActive="active" [routerLink]="['/presentadores']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                  <i class="ni ni-calendar-grid-58"></i>
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <span class="material-icons">people_outline</span>
                 </div>
                 <div class="media-body ml-3">
                   <h6 class="heading text-primary mb-md-1">Conferencistas</h6>
@@ -188,7 +188,7 @@
 
 
         <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+          <a [routerLink]="['/guanajuato']" class="nav-link no-caret" role="button">
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text">Guanajuato</span>
           </a>
