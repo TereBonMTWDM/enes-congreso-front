@@ -27,6 +27,7 @@ import { SectionsModule } from './sections/sections.module';
 import { ProgramaComponent } from './pages/programa/programa.component';
 import { ComiteComponent } from './pages/comite/comite.component';
 import { PresentadoresComponent } from './pages/presentadores/presentadores.component';
+import { GuanajuatoComponent } from './pages/guanajuato/guanajuato.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { PresentadoresComponent } from './pages/presentadores/presentadores.comp
     EjePoliticasComponent,
     ProgramaComponent,
     ComiteComponent,
-    PresentadoresComponent
+    PresentadoresComponent,
+    GuanajuatoComponent
   ],
   imports: [
     BrowserModule,

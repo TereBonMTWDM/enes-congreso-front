@@ -1,0 +1,9 @@
+/*unam azul*/
+.text-unam-oro {
+    color: #ed9b0e!important
+}
+
+a.text-unam-oro:focus,
+a.text-unam-oro:hover {
+    color: #0da5c0!important
+}
