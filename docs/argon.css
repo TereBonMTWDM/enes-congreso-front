@@ -194,7 +194,8 @@ sup {
 
 a {
     text-decoration: none;
-    color: #5e72e4;
+    /* color: #5e72e4; */
+    color: #1c3d6c;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
