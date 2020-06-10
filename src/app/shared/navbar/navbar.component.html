@@ -1,7 +1,8 @@
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
     <a class="navbar-brand mr-lg-5" [routerLink]="['/inicio']">
-      <img src="./assets/img/images/enes-lgoo.png">
+      <img src="./assets/img/images/escudo_unam_solow.svg">
+      <!-- <img src="./assets/img/images/enes-lgoo.png"> -->
       <!-- <img src="./assets/img/brand/argon-white.png"> -->
     </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
@@ -13,7 +14,7 @@
         <div class="row">
           <div class="col-6 collapse-brand">
             <a [routerLink]="['/inicio']">
-              <img src="./assets/img/brand/blue.png">
+              <img src="./assets/img/images/unam-escudo-azul.png"> U N A M
             </a>
           </div>
           <div class="col-6 collapse-close">
@@ -31,102 +32,30 @@
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text">Congreso</span>
           </a>
-          <!-- <div class="dropdown-menu-xl dropdown-menu" >
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['/ejes2']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-map-big"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Ejes temáticos</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
-                </div>
-              </a>
-            
-              <a routerLinkActive="active" [routerLink]="['/eje/innovacion']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-ui-04"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Innovación</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/eje/investigacion']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-ui-04"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Investigación</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/eje/politica']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-ui-04"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Política</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-            </div>
-          </div> -->
         </li>
 
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
             <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner--text">Ejes Temáticos</span>
+            <span class="nav-link-inner--text">Organización</span>
           </a>
           <div class="dropdown-menu-xl dropdown-menu" >
             <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['/ejes2']" class="media d-flex align-items-center">
+              <a routerLinkActive="active" [routerLink]="['/organizador']" class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                   <i class="ni ni-map-big"></i>
                 </div>
                 <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Ejes temáticos</h6>
+                  <h6 class="heading text-primary mb-md-1">Comité Organizador</h6>
                   <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
                 </div>
               </a>
-              <!-- <a routerLinkActive="active" [routerLink]="['/ejes2']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                  <i class="ni ni-palette"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Ejes temáticos 2</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for Argon.</p>
-                </div>
-              </a> -->
-              <a routerLinkActive="active" [routerLink]="['/eje/innovacion']" class="media d-flex align-items-center">
+              <a routerLinkActive="active" [routerLink]="['/cientifico']" class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                   <i class="ni ni-books"></i>
                 </div>
                 <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Innovación</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/eje/investigacion']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <!-- <i class="ni ni-ui-04"></i> -->
-                  <span class="material-icons">
-                    <mat-icon>group_work</mat-icon>
-                  </span>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Investigación</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/eje/politica']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <!-- <i class="ni ni-ui-04"></i> -->
-                  <img src="https://img.icons8.com/material/24/000000/meeting-room.png"/>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Política</h5>
+                  <h5 class="heading text-warning mb-md-1">Comité Científico</h5>
                   <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
                 </div>
               </a>
@@ -154,6 +83,82 @@
             </div>
           </div>
         </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" [routerLink]="['/ejes']" data-toggle="dropdown" role="button">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner--text">Ejes Temáticos</span>
+          </a>
+          <!-- <div class="dropdown-menu-xl dropdown-menu" >
+            <div class="dropdown-menu-inner">
+              <a routerLinkActive="active" [routerLink]="['/ejes']" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                  <i class="ni ni-map-big"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">Ejes temáticos</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                </div>
+              </a>
+            
+              <a routerLinkActive="active" [routerLink]="['/eje/innovacion']" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <i class="ni ni-books"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-warning mb-md-1">Eje Innovación</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" [routerLink]="['/eje/investigacion']" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  <span class="material-icons">
+                    <mat-icon>group_work</mat-icon>
+                  </span>
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-warning mb-md-1">Eje Investigación</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
+                </div>
+              </a>
+              <a routerLinkActive="active" [routerLink]="['/eje/politica']" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                  
+                  <img src="https://img.icons8.com/material/24/000000/meeting-room.png"/>
+                </div>
+                <div class="media-body ml-3">
+                  <h5 class="heading text-warning mb-md-1">Eje Política</h5>
+                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
+                </div>
+              </a>
+            </div>
+          </div> -->
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner--text">Comité Técnico</span>
+          </a>
+          <div class="dropdown-menu-xl dropdown-menu" >
+            <div class="dropdown-menu-inner">
+              <a routerLinkActive="active" [routerLink]="['/ejes']" class="media d-flex align-items-center">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                  <i class="ni ni-map-big"></i>
+                </div>
+                <div class="media-body ml-3">
+                  <h6 class="heading text-primary mb-md-1">Ejes temáticos</h6>
+                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
+                </div>
+              </a>
+              
+              
+            </div>
+          </div>
+        </li>
+
+       
 
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" data-toggle="dropdown" role="button">
@@ -185,6 +190,12 @@
           </div>
         </li>
 
+        <li class="nav-item dropdown">
+          <a [routerLink]="['/guanajuato']" class="nav-link no-caret" role="button">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner--text">ENES</span>
+          </a>
+        </li>
 
 
         <li class="nav-item dropdown">
@@ -195,53 +206,12 @@
         </li>
 
 
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">Examples</span>
-          </a>
-          <div class="dropdown-menu">
-            <a [routerLink]="['/landing']" class="dropdown-item">Landing</a>
-            <a [routerLink]="['/user-profile']" class="dropdown-item">Profile</a>
-            <a [routerLink]="['/login']" class="dropdown-item">Login</a>
-            <a [routerLink]="['/register']" class="dropdown-item">Register</a>
-          </div>
-        </li> -->
       </ul>
-      <!-- <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon"  target="_blank" data-toggle="tooltip" title="Like us on Facebook">
-            <i class="fa fa-facebook-square"></i>
-            <span class="nav-link-inner--text d-lg-none">Facebook</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon"  target="_blank" data-toggle="tooltip" title="Follow us on Instagram">
-            <i class="fa fa-instagram"></i>
-            <span class="nav-link-inner--text d-lg-none">Instagram</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon"  target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
-            <i class="fa fa-twitter-square"></i>
-            <span class="nav-link-inner--text d-lg-none">Twitter</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-icon"  target="_blank" data-toggle="tooltip" title="Star us on Github">
-            <i class="fa fa-github"></i>
-            <span class="nav-link-inner--text d-lg-none">Github</span>
-          </a>
-        </li>
-        !-- <li class="nav-item d-none d-lg-block ml-lg-4">
-          <a href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-navbar" target="_blank" class="btn btn-neutral btn-icon">
-            <span class="btn-inner--icon">
-              <i class="fa fa-cloud-download mr-2"></i>
-            </span>
-            <span class="nav-link-inner--text">Download</span>
-          </a>
-        </li> --
-      </ul> -->
+     
     </div>
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/inicio']">
+      <img src="./assets/img/brand/logo-congreso-blanco.png">
+      
+    </a>
   </div>
 </nav>
