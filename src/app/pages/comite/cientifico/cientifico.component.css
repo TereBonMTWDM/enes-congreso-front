@@ -1,0 +1,176 @@
+/*
+* {
+    box-sizing: border-box;
+}
+
+.one > div {
+  height: 50px;
+}
+
+.main {
+  background: #5499d6; 
+  position: relative;
+  display: block;
+  width: 94%;
+  left: 48%;
+  top: 0;
+  padding: 5px;
+  margin-left: -45%;
+  z-index: 10;
+}
+
+.main > div {
+  border: 1px dashed #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  padding-top: inherit;
+}
+
+.bk {
+ background: #337ab7;
+ position: absolute;
+ width: 8%;
+ top: 12px;
+}
+
+.bk.l {
+ left: 0;
+}
+
+.bk.r {
+ right: 0;
+}
+
+.skew {
+  position: absolute;
+  background: #1c3d6c;
+  width: 3%;
+  top: 6px;
+  z-index: 5;
+}
+
+.skew.l {
+  left: 5%;
+  transform: skew(00deg,20deg);
+}
+
+.skew.r {
+  right: 5%;
+  transform: skew(00deg,-20deg);
+}
+
+.bk.l > div {
+  left: -30px;
+}
+
+.bk.r > div {
+  right: -30px;
+}
+
+.arrow {
+  height: 25px !important;
+  position: absolute;
+  z-index: 2;
+    width: 0; 
+    height: 0; 
+}
+
+.arrow.top {
+  top: 0px;
+  border-top: 0px solid transparent;
+    border-bottom: 25px solid transparent;  
+    border-right: 30px solid #337ab7; 
+}
+
+.arrow.bottom {
+  top: 25px;
+  border-top: 25px solid transparent;
+    border-bottom:0px solid transparent;    
+    border-right: 30px solid #337ab7; 
+}
+
+.r .bottom {
+  border-top: 25px solid transparent;
+    border-bottom: 0px solid transparent;   
+    border-left: 30px solid #337ab7; 
+  border-right: none;
+}
+
+.r .top {
+  border-bottom: 25px solid transparent;
+    border-top: 0px solid transparent;  
+    border-left: 30px solid #337ab7; 
+  border-right: none;
+}
+
+@media all and (max-width: 1020px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,25deg);
+  }
+
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-25deg);
+  }
+}
+
+@media all and (max-width: 680px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,30deg);
+  }
+
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-30deg);
+  }
+}
+
+@media all and (max-width: 460px) {
+  .skew.l {
+    left: 5%;
+    transform: skew(00deg,40deg);
+  }
+  .skew.r {
+    right: 5%;
+    transform: skew(00deg,-40deg);
+  }
+}
+*/
+
+.subtitle {
+    margin: 0 0 2em 0;
+    color: #1c3d6c !important;
+    font-weight: normal;
+  }
+  .fancy {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #1c3d6c;
+    border-top: 1px solid #1c3d6c;
+    top: 0;
+    width: 600px;
+    /* width: 700%; */
+    
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }

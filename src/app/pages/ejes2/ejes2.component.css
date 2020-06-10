@@ -1,6 +1,7 @@
 /*unam azul*/
 .text-unam-azul {
-    color: #32325d!important
+    /* color: #32325d!important */
+    color: #337ab7!important
 }
 
 a.text-unam-azul:focus,

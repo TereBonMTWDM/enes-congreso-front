@@ -20,14 +20,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { EjesComponent } from './pages/ejes/ejes.component';
 import { Ejes2Component } from './pages/ejes2/ejes2.component';
-import { EjeInnovacionComponent } from './pages/eje-innovacion/eje-innovacion.component';
-import { EjeInvestigacionComponent } from './pages/eje-investigacion/eje-investigacion.component';
-import { EjePoliticasComponent } from './pages/eje-politicas/eje-politicas.component';
+import { EjeInnovacionComponent } from './pages/ejes/eje-innovacion/eje-innovacion.component';
+import { EjeInvestigacionComponent } from './pages/ejes/eje-investigacion/eje-investigacion.component';
+import { EjePoliticasComponent } from './pages/ejes/eje-politicas/eje-politicas.component';
 import { SectionsModule } from './sections/sections.module';
 import { ProgramaComponent } from './pages/programa/programa.component';
 import { ComiteComponent } from './pages/comite/comite.component';
 import { PresentadoresComponent } from './pages/presentadores/presentadores.component';
 import { GuanajuatoComponent } from './pages/guanajuato/guanajuato.component';
+import { ConferenciasComponent } from './pages/presentadores/conferencias/conferencias.component';
+import { OrganizadorComponent } from './pages/comite/organizador/organizador.component';
+import { CientificoComponent } from './pages/comite/cientifico/cientifico.component';
+import { VirtualComponent } from './pages/programa/virtual/virtual.component';
+import { EjeEquidadComponent } from './pages/ejes/eje-equidad/eje-equidad.component';
+import { EjeProcesosComponent } from './pages/ejes/eje-procesos/eje-procesos.component';
+import { EjeEvaluacionComponent } from './pages/ejes/eje-evaluacion/eje-evaluacion.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +54,14 @@ import { GuanajuatoComponent } from './pages/guanajuato/guanajuato.component';
     ProgramaComponent,
     ComiteComponent,
     PresentadoresComponent,
-    GuanajuatoComponent
+    GuanajuatoComponent,
+    ConferenciasComponent,
+    OrganizadorComponent,
+    CientificoComponent,
+    VirtualComponent,
+    EjeEquidadComponent,
+    EjeProcesosComponent,
+    EjeEvaluacionComponent
   ],
   imports: [
     BrowserModule,
