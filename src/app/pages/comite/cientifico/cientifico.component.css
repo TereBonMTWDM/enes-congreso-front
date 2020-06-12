@@ -174,3 +174,26 @@
     left: 100%;
     margin-left: 15px;
   }
+
+
+  /*modal*/
+  .conf {
+    width: 450px;
+    position: relative;
+    padding-top: 0;
+    padding-right: 0;
+    
+}
+
+.card {
+    position: relative;
+    width: 450px;
+}
+
+/*logo unam*/
+img.logo {
+    vertical-align: middle;
+    border-style: none;
+    margin-right: auto;
+    width: 20%;
+}
