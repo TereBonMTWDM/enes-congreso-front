@@ -25,6 +25,11 @@ import { CientificoComponent } from './pages/comite/cientifico/cientifico.compon
 import { EjeEquidadComponent } from './pages/ejes/eje-equidad/eje-equidad.component';
 import { EjeProcesosComponent } from './pages/ejes/eje-procesos/eje-procesos.component';
 import { EjeEvaluacionComponent } from './pages/ejes/eje-evaluacion/eje-evaluacion.component';
+import { TecnicoComponent } from './pages/comite/tecnico/tecnico.component';
+import { ConferenciasComponent } from './pages/presentadores/conferencias/conferencias.component';
+import { PonenciasComponent } from './pages/presentadores/ponencias/ponencias.component';
+import { EnesComponent } from './pages/enes/enes.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -34,20 +39,25 @@ const routes: Routes =[
     { path: 'login',            component: LoginComponent },
 
     { path: 'inicio',           component: InicioComponent },
+    { path: 'conferencias',     component: ConferenciasComponent },
+    { path: 'ponencias',     component: PonenciasComponent },
     { path: 'organizador',      component: OrganizadorComponent },
-    { path: 'cientifico',      component: CientificoComponent },
+    { path: 'cientifico',       component: CientificoComponent },
+    { path: 'tecnico',          component: TecnicoComponent },
     { path: 'ejes',             component: EjesComponent },
     //{ path: 'ejes2',            component: Ejes2Component },
     { path: 'eje/innovacion',   component: EjeInnovacionComponent },
     { path: 'eje/investigacion',component: EjeInvestigacionComponent },
     { path: 'eje/politica',     component: EjePoliticasComponent },
-    { path: 'eje/equidad',     component: EjeEquidadComponent },
+    { path: 'eje/equidad',      component: EjeEquidadComponent },
     { path: 'eje/procesos',     component: EjeProcesosComponent },
-    { path: 'eje/evaluacion',     component: EjeEvaluacionComponent },
+    { path: 'eje/evaluacion',   component: EjeEvaluacionComponent },
     
     { path: 'programa',         component: ProgramaComponent },
+    { path: 'registro',         component: RegistroComponent },
     { path: 'comite',           component: ComiteComponent },
     { path: 'presentadores',    component: PresentadoresComponent },
+    { path: 'enes',       component: EnesComponent },
     { path: 'guanajuato',       component: GuanajuatoComponent },
 
     //{ path: '', redirectTo: 'home', pathMatch: 'full' }
