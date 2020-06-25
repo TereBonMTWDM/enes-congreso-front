@@ -35,6 +35,12 @@ import { VirtualComponent } from './pages/programa/virtual/virtual.component';
 import { EjeEquidadComponent } from './pages/ejes/eje-equidad/eje-equidad.component';
 import { EjeProcesosComponent } from './pages/ejes/eje-procesos/eje-procesos.component';
 import { EjeEvaluacionComponent } from './pages/ejes/eje-evaluacion/eje-evaluacion.component';
+import { TecnicoComponent } from './pages/comite/tecnico/tecnico.component';
+import { PonenciasComponent } from './pages/presentadores/ponencias/ponencias.component';
+import { EnesComponent } from './pages/enes/enes.component';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { ParticipacionComponent } from './pages/programa/participacion/participacion.component';
+import { FechasComponent } from './pages/programa/fechas/fechas.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +67,13 @@ import { EjeEvaluacionComponent } from './pages/ejes/eje-evaluacion/eje-evaluaci
     VirtualComponent,
     EjeEquidadComponent,
     EjeProcesosComponent,
-    EjeEvaluacionComponent
+    EjeEvaluacionComponent,
+    TecnicoComponent,
+    PonenciasComponent,
+    EnesComponent,
+    RegistroComponent,
+    ParticipacionComponent,
+    FechasComponent
   ],
   imports: [
     BrowserModule,
