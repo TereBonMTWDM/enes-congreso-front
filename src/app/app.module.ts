@@ -41,6 +41,7 @@ import { EnesComponent } from './pages/enes/enes.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { ParticipacionComponent } from './pages/programa/participacion/participacion.component';
 import { FechasComponent } from './pages/programa/fechas/fechas.component';
+import { OrganizadorSectionComponent } from './pages/comite/organizador-section/organizador-section.component';
 
 @NgModule({
   declarations: [
@@ -73,7 +74,8 @@ import { FechasComponent } from './pages/programa/fechas/fechas.component';
     EnesComponent,
     RegistroComponent,
     ParticipacionComponent,
-    FechasComponent
+    FechasComponent,
+    OrganizadorSectionComponent
   ],
   imports: [
     BrowserModule,
