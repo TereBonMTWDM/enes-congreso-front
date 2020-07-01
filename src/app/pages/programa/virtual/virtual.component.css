@@ -24,3 +24,9 @@ a.btn-icon-only {
     display: inline-table;
     color: whitesmoke
 }
+
+/*justify*/
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}

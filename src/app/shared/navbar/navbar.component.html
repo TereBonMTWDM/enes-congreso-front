@@ -9,6 +9,7 @@
           [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
     <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
       <div class="navbar-collapse-header">
         <div class="row">
@@ -45,7 +46,7 @@
               </a>
               <a routerLinkActive="active" [routerLink]="['/registro']" class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-books"></i>
+                  <mat-icon>edit</mat-icon>
                 </div>
                 <div class="media-body ml-3">
                   <h5 class="heading text-primary mb-md-1">Registro</h5>
@@ -70,146 +71,18 @@
           </a>
         </li>
         
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner--text">Organización</span>
-          </a>
-          <div class="dropdown-menu-xl dropdown-menu" >
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['/organizador']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-map-big"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Comité Organizador</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/cientifico']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-books"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Comité Científico</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </li> -->
-
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner--text">Programa</span>
-          </a>
-          <div class="dropdown-menu-xl dropdown-menu" >
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['/programa']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-calendar-grid-58"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Actividades</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
-                </div>
-              </a>
-          
-            </div>
-          </div>
-        </li> -->
+       
 
         <li class="nav-item dropdown">
           <a class="nav-link no-caret" [routerLink]="['/ejes']" data-toggle="dropdown" role="button">
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text">Ejes Temáticos</span>
           </a>
-          <!-- <div class="dropdown-menu-xl dropdown-menu" >
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['/ejes']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-map-big"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Ejes temáticos</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
-                </div>
-              </a>
-            
-              <a routerLinkActive="active" [routerLink]="['/eje/innovacion']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-books"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Innovación</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/eje/investigacion']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <span class="material-icons">
-                    <mat-icon>group_work</mat-icon>
-                  </span>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Investigación</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/eje/politica']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  
-                  <img src="https://img.icons8.com/material/24/000000/meeting-room.png"/>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Eje Política</h5>
-                  <p class="description d-none d-md-inline-block mb-0">Browse our 50 beautiful handcrafted components offered in the Free version.</p>
-                </div>
-              </a>
-            </div>
-          </div> -->
+       
         </li>
 
 
-        <!-- <li class="nav-item dropdown">
-          <a [routerLink]="['/tecnico']" class="nav-link no-caret" role="button">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner--text">Comité técnico</span>
-          </a>
-        </li> -->
-
        
-
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner--text">Personalidades</span>
-          </a>
-          <div class="dropdown-menu-xl dropdown-menu" >
-            <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['/comite']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <span class="material-icons">people_outline</span>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Comités Técnico y Científico</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
-                </div>
-              </a>
-              <a routerLinkActive="active" [routerLink]="['/presentadores']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <span class="material-icons">people_outline</span>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Conferencistas</h6>
-                  <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
-                </div>
-              </a>
-          
-            </div>
-          </div>
-        </li> -->
 
         <li class="nav-item dropdown">
           <a [routerLink]="['/enes']" class="nav-link no-caret" role="button">
@@ -236,29 +109,29 @@
           <div class="dropdown-menu-xl dropdown-menu" >
             <div class="dropdown-menu-inner">
               <a routerLinkActive="active" [routerLink]="['organizador']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                   <span class="material-icons">people_outline</span>
                 </div>
                 <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Comité Organizador</h6>
+                  <h5 class="heading text-primary mb-md-1">Comité Organizador</h5>
                   <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
                 </div>
               </a>
               <a routerLinkActive="active" [routerLink]="['/cientifico']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                   <span class="material-icons">people_outline</span>
                 </div>
                 <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Comité Científico</h6>
+                  <h5 class="heading text-primary mb-md-1">Comité Científico</h5>
                   <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
                 </div>
               </a>
               <a routerLinkActive="active" [routerLink]="['/tecnico']" class="media d-flex align-items-center">
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                   <span class="material-icons">people_outline</span>
                 </div>
                 <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Comité Técnico</h6>
+                  <h5 class="heading text-primary mb-md-1">Comité Técnico</h5>
                   <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
                 </div>
               </a>
@@ -271,6 +144,7 @@
       </ul>
      
     </div>
+    
     <a class="navbar-brand mr-lg-5" [routerLink]="['/inicio']">
       <img src="./assets/img/brand/logo-congreso-blanco.png">
       

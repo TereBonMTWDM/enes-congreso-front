@@ -1,14 +1,15 @@
-/*unam azul*/
-.text-unam-azul {
-    /* color: #32325d!important */
-    color: #337ab7!important
+.conf {
+    width: 450px;
+    position: relative;
+    padding-top: 0;
+    padding-right: 0;
+    
 }
 
-a.text-unam-azul:focus,
-a.text-unam-azul:hover {
-    color: #0da5c0!important
+.card {
+    position: relative;
+    width: 450px;
 }
-
 
 /*logo unam*/
 img.logo {
@@ -17,6 +18,7 @@ img.logo {
     margin-right: auto;
     width: 20%;
 }
+
 
 /*justify*/
 p {
