@@ -25,3 +25,9 @@ p {
     text-align: justify;
     text-justify: inter-word;
 }
+
+/*person imagen*/
+img.person {
+    width: 70%;
+    
+}
