@@ -41,7 +41,7 @@ import { EnesComponent } from './pages/enes/enes.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { ParticipacionComponent } from './pages/programa/participacion/participacion.component';
 import { FechasComponent } from './pages/programa/fechas/fechas.component';
-import { OrganizadorSectionComponent } from './pages/comite/organizador-section/organizador-section.component';
+//import { OrganizadorSectionComponent } from './pages/comite/organizador-section/organizador-section.component';
 //import { ConfCronoComponent } from './pages/presentadores/conf-crono/conf-crono.component';
 import { SintesisModalsComponent } from './shared/sintesis-modals/sintesis-modals.component';
 
@@ -77,7 +77,7 @@ import { SintesisModalsComponent } from './shared/sintesis-modals/sintesis-modal
     RegistroComponent,
     ParticipacionComponent,
     FechasComponent,
-    OrganizadorSectionComponent,
+    //OrganizadorSectionComponent,
     //ConfCronoComponent,
     SintesisModalsComponent
   ],
