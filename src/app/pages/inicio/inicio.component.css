@@ -9,3 +9,9 @@ a.text-unam-oro:focus,
 a.text-unam-oro:hover {
     color: #0da5c0!important
 }
+
+/*justify*/
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -24,3 +24,9 @@ a.btn-icon-only {
     display: inline-table;
     color: whitesmoke
 }
+
+/*unam azul*/
+.text-unam-azul {
+    /* color: #32325d!important */
+    color: #337ab7!important
+}
