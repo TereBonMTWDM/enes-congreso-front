@@ -44,6 +44,7 @@ import { FechasComponent } from './pages/programa/fechas/fechas.component';
 //import { OrganizadorSectionComponent } from './pages/comite/organizador-section/organizador-section.component';
 //import { ConfCronoComponent } from './pages/presentadores/conf-crono/conf-crono.component';
 import { SintesisModalsComponent } from './shared/sintesis-modals/sintesis-modals.component';
+import { EjesModalsComponent } from './shared/ejes-modals/ejes-modals.component';
 
 @NgModule({
   declarations: [
@@ -79,7 +80,8 @@ import { SintesisModalsComponent } from './shared/sintesis-modals/sintesis-modal
     FechasComponent,
     //OrganizadorSectionComponent,
     //ConfCronoComponent,
-    SintesisModalsComponent
+    SintesisModalsComponent,
+    EjesModalsComponent
   ],
   imports: [
     BrowserModule,
