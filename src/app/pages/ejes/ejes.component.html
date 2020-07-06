@@ -61,8 +61,10 @@
                     <span class="badge badge-pill badge-primary">inclusión</span>
                     <span class="badge badge-pill badge-primary">igualdad</span>
                   </div>
-                  <!-- <a [routerLink]="['/eje/equidad']" class="btn btn-primary mt-4">Ver más</a> -->
+
                   <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-equidad">Ver más</button>
+                  <button [routerLink]="['/programa/']" fragment="equidad"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                 </div>
               </div>
             </div>
@@ -88,6 +90,8 @@
                   </div>
                   <!-- <a [routerLink]="['/eje/innovacion']" class="btn btn-primary mt-4">Ver más</a> -->
                   <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-innovacion">Ver más</button>
+                  <button [routerLink]="['/programa/']" fragment="equidad"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                 </div>
               </div>
             </div>
@@ -110,6 +114,8 @@
                     <span class="badge badge-pill badge-primary">metacognición</span>
                   </div>
                   <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-procesos">Ver más</button>
+                  <button [routerLink]="['/programa/']" fragment="procesos"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                 </div>
               </div>
             </div>
@@ -133,7 +139,8 @@
                       <span class="badge badge-pill badge-primary">evaluación educativa</span>
                     </div>
                     <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-investigacion">Ver más</button>
-                    <!-- <a href="javascript:void(0)" class="btn btn-primary mt-4">Ver más</a> -->
+                    <button [routerLink]="['/programa/']" fragment="procesos"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                   </div>
                 </div>
               </div>
@@ -151,6 +158,8 @@
                       <span class="badge badge-pill badge-primary">formación docente</span>
                     </div>
                     <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-politicas">Ver más</button>
+                    <button [routerLink]="['/programa/']" fragment="evaluacion"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                   </div>
                 </div>
               </div>
@@ -170,6 +179,8 @@
                       <span class="badge badge-pill badge-primary">certidumbre</span>
                     </div>
                     <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-evaluacion">Ver más</button>
+                    <button [routerLink]="['/programa/']" fragment="evaluacion"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                   </div>
                 </div>
               </div>
@@ -193,6 +204,8 @@
                       <span class="badge badge-pill badge-primary">nuevas estéticas</span>
                     </div>
                     <button type="button" class="btn btn-primary mt-4" data-toggle="modal" data-target="#eje-cultura">Ver más</button>
+                    <button [routerLink]="['/programa/']" fragment="evaluacion"
+                    type="button" class="btn btn-info mt-4">Ver programa</button>
                   </div>
                 </div>
               </div>
@@ -207,190 +220,10 @@
 
 
 
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-equidad" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-equidad">Equidad educativa y factor humano</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 50.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1600px" height="800px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ed7f63a55d98e0d8841ef0b" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
+<app-ejes-modals></app-ejes-modals>
 
 
 <!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-innovacion" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img  class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="innovacion">Innovación tecnológica en educación</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 200.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800px" height="1600px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ecc315bc9f5190d9a956fe1" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-      </div>
-      <div class="modal-footer">
-        
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-procesos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-procesos">Procesos de aprendizaje</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 200.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800px" height="1600px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ed8070bf610f80d997a13f4" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-investigacion" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-investigacion">Investigación educativa</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <!-- <div style="width: 100%;"><div style="position: relative; padding-bottom: 200.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800px" height="1600px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ecc3d8cc9f5190d9a9571b6" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div> -->
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 200.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800px" height="1600px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ed8115655d98e0d8841f154" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-investigacion" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-investigacion">Investigación educativa</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <!-- <div style="width: 100%;"><div style="position: relative; padding-bottom: 200.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800px" height="1600px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ecc3d8cc9f5190d9a9571b6" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div> -->
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 200.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="800px" height="1600px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ed8115655d98e0d8841f154" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-politicas" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-politicas">Gestión y políticas educativas</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 50.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1600px" height="800px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ed867934ece6a0d8fc8873c" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="eje-evaluacion" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-equidad">Evaluación para el aprendizaje</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 50.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1600px" height="800px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5ed85fa7d45fd50da05773f5" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-<div class="modal fade bd-example-modal-lg" id="eje-cultura" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <img class="logo" src="./assets/img/images/logo-color.png">
-        <h2 class="modal-title" id="eje-cultura">Innovación en la cultura, humanidades y arte</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div style="width: 100%;"><div style="position: relative; padding-bottom: 50.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1600px" height="800px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5efe2d5133b7c20d6e47f84b" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-        <!-- <div style="width: 100%;"><div style="position: relative; padding-bottom: 50.00%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1600px" height="800px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5efe0fe359f6760d6dfb16c5" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div> -->
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Modal -->
 <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

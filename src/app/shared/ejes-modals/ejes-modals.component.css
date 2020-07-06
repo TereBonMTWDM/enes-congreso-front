@@ -1,0 +1,25 @@
+/*unam azul*/
+.text-unam-azul {
+    /* color: #32325d!important */
+    color: #337ab7!important
+}
+
+a.text-unam-azul:focus,
+a.text-unam-azul:hover {
+    color: #0da5c0!important
+}
+
+
+/*logo unam*/
+img.logo {
+    vertical-align: middle;
+    border-style: none;
+    margin-right: auto;
+    width: 20%;
+}
+
+/*justify*/
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -57,7 +57,7 @@ const routes: Routes =[
     { path: 'registro',         component: RegistroComponent },
     { path: 'comite',           component: ComiteComponent },
     { path: 'presentadores',    component: PresentadoresComponent },
-    { path: 'enes',       component: EnesComponent },
+    { path: 'enes',             component: EnesComponent },
     { path: 'guanajuato',       component: GuanajuatoComponent },
 
     //{ path: '', redirectTo: 'home', pathMatch: 'full' }
@@ -69,7 +69,10 @@ const routes: Routes =[
     CommonModule,
     BrowserModule,
     RouterModule.forRoot(routes,{
-      useHash: true
+      useHash: true,
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled',
+      scrollOffset: [0, 64]
     })
   ],
   exports: [
