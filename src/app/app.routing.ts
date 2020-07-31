@@ -30,6 +30,17 @@ import { ConferenciasComponent } from './pages/presentadores/conferencias/confer
 import { PonenciasComponent } from './pages/presentadores/ponencias/ponencias.component';
 import { EnesComponent } from './pages/enes/enes.component';
 import { RegistroComponent } from './pages/registro/registro.component';
+import { Mesa17Component } from './pages/programa/mesa17/mesa17.component';
+import { Mesa18Component } from './pages/programa/mesa18/mesa18.component';
+import { Mesa19Component } from './pages/programa/mesa19/mesa19.component';
+import { EquidadComponent } from './pages/programa/equidad/equidad.component';
+import { InnComponent } from './pages/programa/inn/inn.component';
+import { CulturaComponent } from './pages/programa/cultura/cultura.component';
+import { EvaluacionComponent } from './pages/programa/evaluacion/evaluacion.component';
+import { InvestigacionComponent } from './pages/programa/investigacion/investigacion.component';
+import { ParticipacionComponent } from './pages/programa/participacion/participacion.component';
+import { PoliticasComponent } from './pages/programa/politicas/politicas.component';
+import { ProcesosComponent } from './pages/programa/procesos/procesos.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -59,6 +70,19 @@ const routes: Routes =[
     { path: 'presentadores',    component: PresentadoresComponent },
     { path: 'enes',             component: EnesComponent },
     { path: 'guanajuato',       component: GuanajuatoComponent },
+
+    { path: 'mesa17',       component: Mesa17Component },
+    { path: 'mesa18',       component: Mesa18Component },
+    { path: 'mesa19',       component: Mesa19Component },
+
+    { path: 'equidad',       component: EquidadComponent },
+    { path: 'inn',       component: InnComponent },
+    { path: 'cultura',       component: CulturaComponent },
+    { path: 'evaluacion',       component: EvaluacionComponent },
+    { path: 'investigacion',       component: InvestigacionComponent },
+    { path: 'participacion',       component: ParticipacionComponent },
+    { path: 'politicas',       component: PoliticasComponent },
+    { path: 'procesos',       component: ProcesosComponent },
 
     //{ path: '', redirectTo: 'home', pathMatch: 'full' }
     { path: '', redirectTo: 'inicio', pathMatch: 'full' }

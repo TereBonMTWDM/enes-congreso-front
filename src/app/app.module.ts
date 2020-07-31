@@ -45,6 +45,16 @@ import { FechasComponent } from './pages/programa/fechas/fechas.component';
 //import { ConfCronoComponent } from './pages/presentadores/conf-crono/conf-crono.component';
 import { SintesisModalsComponent } from './shared/sintesis-modals/sintesis-modals.component';
 import { EjesModalsComponent } from './shared/ejes-modals/ejes-modals.component';
+import { Mesa17Component } from './pages/programa/mesa17/mesa17.component';
+import { Mesa18Component } from './pages/programa/mesa18/mesa18.component';
+import { Mesa19Component } from './pages/programa/mesa19/mesa19.component';
+import { EquidadComponent } from './pages/programa/equidad/equidad.component';
+import { InnComponent } from './pages/programa/inn/inn.component';
+import { ProcesosComponent } from './pages/programa/procesos/procesos.component';
+import { InvestigacionComponent } from './pages/programa/investigacion/investigacion.component';
+import { PoliticasComponent } from './pages/programa/politicas/politicas.component';
+import { EvaluacionComponent } from './pages/programa/evaluacion/evaluacion.component';
+import { CulturaComponent } from './pages/programa/cultura/cultura.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +91,17 @@ import { EjesModalsComponent } from './shared/ejes-modals/ejes-modals.component'
     //OrganizadorSectionComponent,
     //ConfCronoComponent,
     SintesisModalsComponent,
-    EjesModalsComponent
+    EjesModalsComponent,
+    Mesa17Component,
+    Mesa18Component,
+    Mesa19Component,
+    EquidadComponent,
+    InnComponent,
+    ProcesosComponent,
+    InvestigacionComponent,
+    PoliticasComponent,
+    EvaluacionComponent,
+    CulturaComponent
   ],
   imports: [
     BrowserModule,
