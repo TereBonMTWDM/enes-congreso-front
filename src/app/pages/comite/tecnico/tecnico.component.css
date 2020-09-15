@@ -1,0 +1,30 @@
+.conf {
+    width: 450px;
+    position: relative;
+    padding-top: 0;
+    padding-right: 0;
+    
+}
+
+.card {
+    position: relative;
+    width: 450px;
+}
+
+/*logo unam*/
+img.logo {
+    vertical-align: middle;
+    border-style: none;
+    margin-right: auto;
+    width: 5%;
+}
+
+
+
+/*justify*/
+p {
+    /* color: white; */
+    text-align: justify;
+    text-justify: inter-word;
+}
+

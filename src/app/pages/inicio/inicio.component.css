@@ -1,0 +1,27 @@
+/*unam azul*/
+.text-unam-oro {
+    /* color: #ed9b0e!important */
+    color: #C5911F;
+    /* #C5911F */
+}
+
+a.text-unam-oro:focus,
+a.text-unam-oro:hover {
+    color: #0da5c0!important
+}
+
+/*justify*/
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bandera {
+    width: 20px;
+}
+
+.fondo {
+    color: #FFFFFF;
+    background-color: #1c3d6c;
+    /*337ab7*/
+}

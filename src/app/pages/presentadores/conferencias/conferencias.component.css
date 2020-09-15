@@ -1,0 +1,67 @@
+/* #region  modal */
+.conf {
+    width: 450px;
+    position: relative;
+    padding-top: 0;
+    padding-right: 0;
+    
+}
+
+.card {
+    position: relative;
+    width: 450px;
+}
+
+/*logo unam*/
+img.logo {
+    vertical-align: middle;
+    border-style: none;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+/*justify*/
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+/* #endregion */
+
+
+/* #region  separador */
+
+.subtitle {
+    margin: 0 0 2em 0;
+    color: white !important;
+    font-weight: normal;
+  }
+  .fancy {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 600px;
+    /* width: 700%; */
+    
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+/* #endregion */
