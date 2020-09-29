@@ -24,4 +24,7 @@ p {
     color: #FFFFFF;
     background-color: #1c3d6c;
     /*337ab7*/
+    font-size: large;
+    height: 60px;
+    padding-top: 20px;
 }
