@@ -1,0 +1,17 @@
+p {
+    color: white !important;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ol {
+    counter-reset: item;
+    padding-left: 10px;
+}
+li {
+    display: block
+}
+li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
