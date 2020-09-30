@@ -56,6 +56,7 @@ import { PoliticasComponent } from './pages/programa/politicas/politicas.compone
 import { EvaluacionComponent } from './pages/programa/evaluacion/evaluacion.component';
 import { CulturaComponent } from './pages/programa/cultura/cultura.component';
 import { CriteriosComponent } from './pages/registro/criterios/criterios.component';
+import { InscripcionComponent } from './pages/registro/inscripcion/inscripcion.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +104,8 @@ import { CriteriosComponent } from './pages/registro/criterios/criterios.compone
     PoliticasComponent,
     EvaluacionComponent,
     CulturaComponent,
-    CriteriosComponent
+    CriteriosComponent,
+    InscripcionComponent
   ],
   imports: [
     BrowserModule,
