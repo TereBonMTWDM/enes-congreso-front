@@ -41,6 +41,7 @@ import { InvestigacionComponent } from './pages/programa/investigacion/investiga
 import { ParticipacionComponent } from './pages/programa/participacion/participacion.component';
 import { PoliticasComponent } from './pages/programa/politicas/politicas.component';
 import { ProcesosComponent } from './pages/programa/procesos/procesos.component';
+import { CriteriosComponent } from './pages/registro/criterios/criterios.component';
 
 const routes: Routes =[
     { path: 'home',             component: HomeComponent },
@@ -83,6 +84,8 @@ const routes: Routes =[
     { path: 'participacion',       component: ParticipacionComponent },
     { path: 'politicas',       component: PoliticasComponent },
     { path: 'procesos',       component: ProcesosComponent },
+
+    { path: 'criterios',       component: CriteriosComponent },
 
     //{ path: '', redirectTo: 'home', pathMatch: 'full' }
     { path: '', redirectTo: 'inicio', pathMatch: 'full' }
