@@ -4,7 +4,7 @@ p {
     text-justify: inter-word;
 }
 
-ol {
+/* ol {
     counter-reset: item;
     padding-left: 10px;
 }
@@ -14,4 +14,8 @@ li {
 li:before {
     content: counters(item, ".") " ";
     counter-increment: item
+} */
+
+.tab-1{
+    padding-left:5em
 }

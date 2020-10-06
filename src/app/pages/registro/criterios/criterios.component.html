@@ -17,10 +17,10 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-12 text-white">
-                            <h1 class="display-3  text-white">CRITERIOS ELABORACIÓN DE MANUSCRITOS PARA PARTICIPACIÓN
-                                ORAL </h1>
+                            <h1 class="display-3  text-white">Criterios elaboración de manuscritos para participación
+                                oral</h1>
 
-                            <h2>De la autoría</h2>
+                            <h3>De la autoría</h3>
                             <p>
                                 Se aceptará hasta un máximo de <strong> CINCO autores </strong> por trabajo. <strong>
                                     TODOS deben estar INSCRITOS en
@@ -30,7 +30,7 @@
                                 participar en un máximo de <strong> tres manuscritos</strong>.
                             </p>
                             <br>
-                            <h2>Del envío de manuscritos</h2>
+                            <h3>Del envío de manuscritos</h3>
                             <p>
                                 Las personas participantes podrán presentar manuscritos para las presentaciones orales
                                 en las mesas de trabajo relacionadas con alguno de los siete
@@ -39,104 +39,145 @@
                                     ejes temáticos
                                 </a>
                                 del Congreso. El envío de manuscritos deberá efectuarse en la fecha señalada y
-                                empleando <strong><i> “Plantilla para el envío de manuscritos COVIIEE”</i></strong>
+                                empleando la <a class="text-white" (click)="downloadMyFile('plantilla')"
+                                    style="text-decoration: underline; font-size: xx-large;" target="_blank">
+                                    “Plantilla para el envío de manuscritos COVIIEE”.</a>
+
+                                <br>
+                                <button type="button" (click)="downloadMyFile('plantilla')"
+                                    class="btn btn-primary mt-4">Descargar plantilla
+                                    <span class="material-icons">cloud_download</span>
+                                </button>
+
                             </p>
                             Ante cualquer duda o problema, contactar por correo con
-                            <a class="text-white" style="text-decoration: underline;" href="coviie@unam.mx"
+                            <a class="text-white" style="text-decoration: underline; " href="coviie@unam.mx"
                                 target="_blank">
                                 coviie@unam.mx.
                             </a>
 
 
-                            <br>
-                            <h2>Consideraciones importantes</h2>
+                            <br><br><br>
+                            <h3>Consideraciones importantes</h3>
                             <ol>
                                 <li>
-                                    Todas las propuestas para las presentaciones orales serán objeto de revisión por
-                                    parte del <strong> Comité Técnico</strong>, que tendrá la decisión final respecto a
-                                    su adjudicación a
-                                    una línea temática determinada.
+                                    <p>
+
+                                        Todas las propuestas para las presentaciones orales serán objeto de revisión por
+                                        parte del <strong> Comité Técnico</strong>, que tendrá la decisión final
+                                        respecto a
+                                        su adjudicación a
+                                        una línea temática determinada.
+                                    </p>
                                 </li>
                                 <li>
-                                    Los criterios para la revisión de las propuestas son: <strong> relevancia,
-                                        originalidad,
-                                        adecuación al evento, contenido y corrección del texto.</strong>
+                                    <p>
+
+                                        Los criterios para la revisión de las propuestas son: <strong> relevancia,
+                                            originalidad,
+                                            adecuación al evento, contenido y corrección del texto.</strong>
+                                    </p>
                                 </li>
                                 <li>
-                                    Para <strong> la aceptación </strong> de la propuesta es <strong> requisito
-                                        indispensable </strong> que
-                                    <strong> al menos una
-                                        autora o un autor </strong> se inscriban al Congreso antes del
-                                    <strong> 30 de noviembre</strong>. El resto de
-                                    los autores pueden inscribirse posteriormente (hasta el 10 de enero).
+                                    <p>
+
+                                        Para <strong> la aceptación </strong> de la propuesta es <strong> requisito
+                                            indispensable </strong> que
+                                        <strong> al menos una
+                                            autora o un autor </strong> se inscriban al Congreso antes del
+                                        <strong> 30 de noviembre</strong>. El resto de
+                                        los autores pueden inscribirse posteriormente (hasta el 10 de enero).
+                                    </p>
                                 </li>
                             </ol>
+
+                            <br><br>
                             <h3>Plazos de envío</h3>
                             <ol>
-                                <li>Las propuestas deberán ser enviadas a más tardar el día 30 de noviembre. </li>
                                 <li>
-                                    Los manuscritos para la presentación de las mesas de trabajo aceptadas con
-                                    modificación, deberán ser enviadas a más tardar el <strong> 10 de enero de
-                                        2021.</strong>
+                                    <p>
+                                        Las propuestas deberán ser enviadas a más tardar el día 30 de noviembre.
+                                    </p>
+                                </li>
 
+                                <li>
+                                    <p>
+
+                                        Los manuscritos para la presentación de las mesas de trabajo aceptadas con
+                                        modificación, deberán ser enviadas a más tardar el <strong> 10 de enero de
+                                            2021.</strong>
+
+                                    </p>
                                 </li>
                             </ol>
 
-                            <br>
-                            <h2>Requisito indispensable para la aceptación de contribuciones </h2>
+
+
+
+                            <br><br><br>
+                            <h3>Requisito indispensable para la aceptación de contribuciones </h3>
                             <p>Antes de remitir su manuscrito hay que comprobar que se <strong> cubren </strong> los
                                 requisitos y
                                 especificaciones señaladas en la
                                 <strong><i>
-                                        <a class="text-white" style="text-decoration: underline;" href="aaa"
-                                            target="_blank">
-                                            Lista de chequeo manuscritos COVIIEE (Link)
+                                        <a class="text-white" style="text-decoration: underline; font-size: xx-large;"
+                                            (click)="downloadMyFile('listaChequeo')" target="_blank">
+                                            Lista de chequeo manuscritos COVIIEE
                                         </a>
-                                    </i></strong>
-                                , para
+                                    </i></strong>, para
                                 evitar la necesidad de corrección o incluso su rechazo por no cumplir algunos de los
                                 requisitos indicados.
+                                <br>
+                                <button type="button" (click)="downloadMyFile('listaChequeo')"
+                                    class="btn btn-primary mt-4">Descargar lista de autochequeo
+                                    <span class="material-icons">cloud_download</span>
+                                </button>
                             </p>
-                            <br>
-                            <h2>Requisito indispensable para la publicación de manuscritos </h2>
-                            <p>Será requisito indispensable que <strong> todos los autores </strong> hayan formalizado
-                                la <strong> inscripción </strong> al
-                                Congreso a más tardar el <strong> 10 de enero de 2021</strong>. De lo contrario, el
-                                trabajo no será
-                                publicado aún habiendo sido aceptado. Los manuscritos deben adjuntarse en el
-                                <strong><i>
-                                        <a class="text-white" style="text-decoration: underline;" href="aaa"
-                                            target="_blank">
-                                            Formato Inscripción al COVIIEE.
-                                        </a>
-                                    </i></strong> (Link)
-                            </p>
-                            <p>Los <strong> mejores manuscritos </strong> seleccionados por el <strong> Comité
-                                    Científico </strong> serán sometidos a la
-                                valoración en el cumplimiento de los criterios establecidos por las siguientes revistas
-                                para su posible publicación: </p>
 
+
+
+                            <br><br><br>
+                            <h3>Requisito indispensable para la publicación de manuscritos en las revistas</h3>
+                            <p>Los <strong> mejores manuscritos </strong> seleccionados por el <strong> Comité
+                                    Científico </strong> para cada uno de los ejes temáticos, serán sometidos a la
+                                valoración para su publicación en las siguientes revistas: </p>
                             <ul>
                                 <li>
-                                    <strong> Revista científica Entreciencias</strong>. Número especial <strong><i>
-                                            “Innovación Educativa y Equidad”</i></strong>.
-                                    Agosto, 2021. Mayor información de la revista:
-                                    <a class="text-white" style="text-decoration: underline;"
-                                        href="http://revistas.unam.mx/index.php/entreciencias" target="_blank">
-                                        http://revistas.unam.mx/index.php/entreciencias
-                                    </a>
+
+
+                                    <span style="font-size: larger;"> <strong>Revista científica
+                                            Entreciencias.</strong></span> Número especial
+                                    "<i><strong>Innovación Educativa y Equidad</strong></i>". Agosto, 2021.
+                                    <div>
+                                        Mayor información de la revista:
+                                        <a class="text-white" style="text-decoration: underline;"
+                                            href="http://revistas.unam.mx/index.php/entreciencias" target="_blank">
+                                            http://revistas.unam.mx/index.php/entreciencias
+                                        </a>
+                                    </div>
 
                                 </li>
                                 <li>
-                                    <strong> Revista Innoeduca</strong>. Internacional Journal of Technology and Educational Innovation.
-                                    2022 
-                                    <a class="text-white" style="text-decoration: underline;"
-                                        href="https://revistas.uma.es/index.php/innoeduca/index" target="_blank">
-                                        https://revistas.uma.es/index.php/innoeduca/index
-                                    </a>
-
+                                    <span style="font-size: larger;"> <strong>Revista Innoeduca.</strong></span>
+                                    Internacional Journal of Technology and
+                                    Educational Innovation. 2022.
+                                    <div>
+                                        Mayor información de la revista:
+                                        <a class="text-white" style="text-decoration: underline;"
+                                            href="https://revistas.uma.es/index.php/innoeduca/index" target="_blank">
+                                            https://revistas.uma.es/index.php/innoeduca/index
+                                        </a>
+                                    </div>
                                 </li>
                             </ul>
+
+                            <p>
+                                Los manuscritos que no cumplan con los criterios y procesos de valoración signados por
+                                las revistas, serán incorporados para su publicación en el libro independiente.
+                            </p>
+
+
+
 
                         </div>
 

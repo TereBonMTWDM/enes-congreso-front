@@ -8496,7 +8496,8 @@ button.bg-darker:hover {
 
 .pt-7,
 .py-7 {
-    padding-top: 6rem!important
+    padding-top: 1rem!important
+    /*padding-top: 6rem!important*/
 }
 
 .pr-7,
@@ -9086,7 +9087,8 @@ button.bg-darker:hover {
     }
     .pt-sm-7,
     .py-sm-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+        /*padding-top: 6rem!important*/
     }
     .pr-sm-7,
     .px-sm-7 {
@@ -9659,7 +9661,9 @@ button.bg-darker:hover {
     }
     .pt-md-7,
     .py-md-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+
+        /*padding-top: 6rem!important*/
     }
     .pr-md-7,
     .px-md-7 {
@@ -10232,7 +10236,8 @@ button.bg-darker:hover {
     }
     .pt-lg-7,
     .py-lg-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+        /*padding-top: 6rem!important*/
     }
     .pr-lg-7,
     .px-lg-7 {
@@ -10805,7 +10810,8 @@ button.bg-darker:hover {
     }
     .pt-xl-7,
     .py-xl-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+        /*padding-top: 6rem!important*/
     }
     .pr-xl-7,
     .px-xl-7 {
