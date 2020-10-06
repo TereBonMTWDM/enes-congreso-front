@@ -34,7 +34,8 @@ p {
 .subtitle {
   margin: 0 0 2em 0;
   color: white !important;
-  font-weight: normal;
+  /* font-weight: normal; */
+  font-size: x-large;
 }
 .fancy {
   line-height: 0.5;

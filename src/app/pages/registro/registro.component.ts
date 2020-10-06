@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import * as path from 'path';
 
 @Component({
   selector: 'app-registro',
@@ -11,5 +12,6 @@ export class RegistroComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
 
 }
