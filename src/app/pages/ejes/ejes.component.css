@@ -23,3 +23,10 @@ p {
     text-align: justify;
     text-justify: inter-word;
 }
+
+
+.material-icons {
+    font-size: 20px;
+    display: inline-table;
+    color: whitesmoke
+}
