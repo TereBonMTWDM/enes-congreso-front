@@ -19,3 +19,11 @@ li:before {
 .tab-1{
     padding-left:5em
 }
+
+.img-fluid {
+    max-width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto
+}
+
