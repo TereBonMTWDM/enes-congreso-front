@@ -1,5 +1,5 @@
 p {
-    color: white !important;
+    color: white ;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -27,3 +27,6 @@ li:before {
     margin-left: auto
 }
 
+.azul-unam{
+    color: #32325d
+}
