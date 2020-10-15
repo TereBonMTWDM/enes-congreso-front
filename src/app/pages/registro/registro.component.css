@@ -1,0 +1,32 @@
+p {
+    color: white ;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ol {
+    counter-reset: item;
+    padding-left: 10px;
+}
+li {
+    display: block
+}
+li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+} */
+
+.tab-1{
+    padding-left:5em
+}
+
+.img-fluid {
+    max-width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.azul-unam{
+    color: #32325d
+}

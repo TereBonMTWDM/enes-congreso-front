@@ -21,3 +21,10 @@
 @function shapes-dark-color($key: "step-1-gradient-bg") {
 	@return map-get($shapes-dark-colors, $key);
 }
+
+@function shapes-unam-azul-color($key: "step-1-gradient-bg") {
+	@return map-get($shapes-unam-azul-colors, $key);
+}
+@function shapes-unam-oro-color($key: "step-1-gradient-bg") {
+	@return map-get($shapes-unam-oro-colors, $key);
+}

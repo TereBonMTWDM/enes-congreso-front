@@ -1,0 +1,32 @@
+.btn-icon-only {
+    width: 5.375rem;
+    height: 5.375rem;
+    padding: 0;
+}
+
+a.btn-icon-only {
+    line-height: 1.5;
+}
+
+.btn {
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    will-change: transform;
+    letter-spacing: 0.025em;
+    font-size: 3.875rem;
+}
+
+
+.material-icons {
+    font-size: 57px;
+    display: inline-table;
+    color: whitesmoke
+}
+
+/*unam azul*/
+.text-unam-azul {
+    /* color: #32325d!important */
+    color: #337ab7!important
+}

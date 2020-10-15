@@ -194,7 +194,8 @@ sup {
 
 a {
     text-decoration: none;
-    color: #5e72e4;
+    /* color: #5e72e4; */
+    color: #1c3d6c;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
@@ -408,12 +409,14 @@ h6 {
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: .5rem;
-    color: #32325d
+    color: #32325d;
+    
 }
 
 .h1,
 h1 {
-    font-size: 1.625rem
+    font-size: 1.625rem;
+    color: #ed9b0e !important
 }
 
 .h2,
@@ -8493,7 +8496,8 @@ button.bg-darker:hover {
 
 .pt-7,
 .py-7 {
-    padding-top: 6rem!important
+    padding-top: 1rem!important
+    /*padding-top: 6rem!important*/
 }
 
 .pr-7,
@@ -9083,7 +9087,8 @@ button.bg-darker:hover {
     }
     .pt-sm-7,
     .py-sm-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+        /*padding-top: 6rem!important*/
     }
     .pr-sm-7,
     .px-sm-7 {
@@ -9656,7 +9661,9 @@ button.bg-darker:hover {
     }
     .pt-md-7,
     .py-md-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+
+        /*padding-top: 6rem!important*/
     }
     .pr-md-7,
     .px-md-7 {
@@ -10229,7 +10236,8 @@ button.bg-darker:hover {
     }
     .pt-lg-7,
     .py-lg-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+        /*padding-top: 6rem!important*/
     }
     .pr-lg-7,
     .px-lg-7 {
@@ -10802,7 +10810,8 @@ button.bg-darker:hover {
     }
     .pt-xl-7,
     .py-xl-7 {
-        padding-top: 6rem!important
+        padding-top: 1rem!important
+        /*padding-top: 6rem!important*/
     }
     .pr-xl-7,
     .px-xl-7 {
@@ -10985,6 +10994,10 @@ button.bg-darker:hover {
     color: #fff!important
 }
 
+.text-oro {
+    color: #fff!important
+}
+
 .text-primary {
     color: #5e72e4!important
 }
@@ -11020,6 +11033,8 @@ a.text-info:focus,
 a.text-info:hover {
     color: #0da5c0!important
 }
+
+
 
 .text-warning {
     color: #fb6340!important
@@ -11698,6 +11713,7 @@ button.section-darker:hover {
     background: linear-gradient(87deg, #fb6340 0, #fbb140 100%)!important
 }
 
+
 .bg-gradient-danger {
     background: linear-gradient(87deg, #f5365c 0, #f56036 100%)!important
 }
@@ -11725,6 +11741,8 @@ button.section-darker:hover {
 .bg-gradient-darker {
     background: linear-gradient(87deg, #000 0, #000 100%)!important
 }
+
+
 
 .fill-primary {
     fill: #5e72e4
