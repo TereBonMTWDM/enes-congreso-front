@@ -14,4 +14,18 @@ export class RegistroComponent implements OnInit {
   }
 
 
+  downloadMyFile(tipo: string) {
+    let link = document.createElement("a");
+    if(tipo == 'plantilla'){
+      link.download = "plantilla-envio-manuscrito";
+      link.href = "assets/files/plantilla-envio.docx";
+    }
+    else if(tipo == 'listaChequeo'){
+      link.download = "lista-chequeo-manuscrito";
+      link.href = "assets/files/lista-chequeo.docx";
+    }
+
+    link.click();
+
+  }
 }
