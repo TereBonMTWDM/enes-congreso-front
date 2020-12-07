@@ -7,15 +7,9 @@ import { AppRoutingModule } from './app.routing';
 import { MaterialModule } from './modules/material/material.module';
 
 import { AppComponent } from './app.component';
-import { SignupComponent } from './signup/signup.component';
-import { LandingComponent } from './landing/landing.component';
-import { ProfileComponent } from './profile/profile.component';
-import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-import { HomeModule } from './home/home.module';
-import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { EjesComponent } from './pages/ejes/ejes.component';
@@ -54,12 +48,8 @@ import { InscripcionComponent } from './pages/registro/inscripcion/inscripcion.c
 @NgModule({
   declarations: [
     AppComponent,
-    SignupComponent,
-    LandingComponent,
-    ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent,
     InicioComponent,
     EjesComponent,
     ProgramaComponent,
@@ -99,7 +89,6 @@ import { InscripcionComponent } from './pages/registro/inscripcion/inscripcion.c
     FormsModule,
     RouterModule,
     AppRoutingModule,
-    HomeModule,
     BrowserAnimationsModule,
     MaterialModule,
     SectionsModule
